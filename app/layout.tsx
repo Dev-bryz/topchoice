@@ -19,11 +19,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Topchoice Forwarders",
     description: "Reliable trucking services from Manila to Lucena City",
-    url: "https://yourdomain.com",
+    url: "https://topchoice-indol.vercel.app",
     siteName: "Topchoice Forwarders",
     images: [
       {
-        url: "/og-image.jpg", // put this in /public
+        url: "/assets/screen_1.png", // put this in /public
         width: 1200,
         height: 630,
         alt: "Topchoice Forwarders",
