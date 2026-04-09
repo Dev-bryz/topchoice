@@ -11,12 +11,12 @@ export default function Home() {
           {/* LEFT */}
           <div className="flex flex-col gap-6 text-center md:text-left">
             
-            <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight tracking-tight">
-              Reliable Cargo & Logistics{" "}
-              <span className="bg-gradient-to-r from-[#ff0f7b] to-[#f89b29] bg-clip-text text-transparent">
-                You Can Trust
-              </span>
-            </h1>
+           <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight sm:leading-tight md:leading-tight tracking-tight">
+  Reliable Cargo & Logistics{" "}
+  <span className="block sm:inline bg-gradient-to-r from-[#ff0f7b] to-[#f89b29] bg-clip-text text-transparent">
+    You Can Trust
+  </span>
+</h1>
 
             <p className="text-lg text-zinc-600 dark:text-zinc-400 max-w-lg">
               Fast, secure, and efficient freight forwarding solutions tailored
