@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "Topchoice Forwarders",
     images: [
       {
-        url: "/screen_1.png", // put this in /public
+        url: "https://topchoice-indol.vercel.app/screen_1.png", // put this in /public
         width: 1200,
         height: 630,
         alt: "Topchoice Forwarders",
