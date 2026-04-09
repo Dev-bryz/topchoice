@@ -56,6 +56,23 @@ export default function Home() {
       <section className="py-20 px-6 bg-zinc-50 dark:bg-zinc-900">
   <div className="max-w-6xl mx-auto text-center">
 
+    {/* IMAGE */}
+    <div className="relative w-full h-[250px] sm:h-[350px] mb-12">
+      <Image
+        src="/binondo.jpeg" // add your image in /public
+        alt="Binondo Manila to Lucena City Route"
+        fill
+        className="object-cover rounded-2xl shadow-md"
+        priority
+      />
+      {/* overlay */}
+      <div className="absolute inset-0 bg-black/30 rounded-2xl flex items-center justify-center">
+        <p className="text-white font-semibold text-lg sm:text-xl">
+          Binondo, Manila → Lucena City, Quezon
+        </p>
+      </div>
+    </div>
+
     <h2 className="text-3xl font-bold mb-4">
       Our Services
     </h2>
@@ -87,7 +104,6 @@ export default function Home() {
             {service.desc}
           </p>
 
-          {/* route badge */}
           <div className="text-xs font-medium inline-block px-3 py-1 rounded-full bg-gradient-to-r from-[#ff930f] to-[#fff95b] text-black">
             Manila → Lucena City, Quezon
           </div>
