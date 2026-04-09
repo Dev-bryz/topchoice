@@ -23,14 +23,14 @@ export default function Home() {
               for your business. From warehouse to delivery — we move with precision.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 mt-4 justify-center md:justify-start">
+            {/* <div className="flex flex-col sm:flex-row gap-4 mt-4 justify-center md:justify-start">
               <button className="px-6 py-3 rounded-full bg-black text-white dark:bg-white dark:text-black font-medium hover:opacity-90 transition">
                 Get Started
               </button>
               <button className="px-6 py-3 rounded-full border border-zinc-300 dark:border-zinc-700 hover:bg-zinc-100 dark:hover:bg-zinc-900 transition">
                 Learn More
               </button>
-            </div>
+            </div> */}
 
             {/* TRUST BADGES */}
             <div className="flex gap-6 mt-6 justify-center md:justify-start text-sm text-zinc-500">
