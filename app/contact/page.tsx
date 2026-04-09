@@ -30,13 +30,23 @@ export default function ContactPage() {
               +63 946 333 3333
             </a>
 
-            <a
-              href="https://share.google/kxx8p7rWBSPfffTYn"
-              target="_blank"
-              className="block text-sm text-zinc-500 mt-3 hover:text-black dark:hover:text-white"
-            >
-              View on Google Maps
-            </a>
+           <a
+  href="https://share.google/kxx8p7rWBSPfffTYn"
+  target="_blank"
+  className="block text-sm text-zinc-500 mt-3 hover:text-black dark:hover:text-white"
+>
+  View on Google Maps
+</a>
+
+<div className="mt-4 rounded-xl overflow-hidden border border-zinc-200 dark:border-zinc-800">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.9823380535095!2d120.96683927510615!3d14.600081985886181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca123a6b970b%3A0x913d6344bcaa5e81!2sDzon%20Forwarders!5e0!3m2!1sen!2sph!4v1775713641377!5m2!1sen!2sph"
+    className="w-full h-[200px] border-0"
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+    allowFullScreen
+  ></iframe>
+</div>
           </div>
 
           {/* LUCENA */}
@@ -51,13 +61,23 @@ export default function ContactPage() {
               +63 908 900 0000
             </a>
 
-            <a
-              href="https://share.google/SQ3FN2dShspNKQtE8"
-              target="_blank"
-              className="block text-sm text-zinc-500 mt-3 hover:text-black dark:hover:text-white"
-            >
-              View on Google Maps
-            </a>
+           <a
+  href="https://www.google.com/maps/place/TopChoice+Forwarders+(Lucena)+DZON+Trucking"
+  target="_blank"
+  className="block text-sm text-zinc-500 mt-3 hover:text-black dark:hover:text-white"
+>
+  View on Google Maps
+</a>
+
+<div className="mt-4 rounded-xl overflow-hidden border border-zinc-200 dark:border-zinc-800">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3872.4321347118284!2d121.60706184318055!3d13.932856151719477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd4b78d3890721%3A0x50f0ae8b64d7db44!2sTopChoice%20Forwarders%20(Lucena)%20DZON%20Trucking!5e0!3m2!1sen!2sph!4v1775713825584!5m2!1sen!2sph"
+    className="w-full h-[200px] sm:h-[250px] border-0"
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+    allowFullScreen
+  ></iframe>
+</div>
           </div>
 
           {/* GENERAL */}
@@ -74,7 +94,7 @@ export default function ContactPage() {
 
             {/* FACEBOOK */}
             <a
-              href="https://www.facebook.com/profile.php?id=100090594334310" // replace with your actual page
+              href="https://facebook.com/topchoiceforwarders" // replace with your actual page
               target="_blank"
               className="flex items-center justify-center gap-2 text-sm text-zinc-500 mt-3 hover:text-black dark:hover:text-white"
             >
